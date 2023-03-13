@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Info App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">    
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-5">Movie Info App</h1>
+      <form id="movieForm" autocomplete="on">
+        <div class="form-group">
+          <label for="movie">Movie Title: </label>
+          <input type="text" class="form-control" id="movie" placeholder="Enter movie title">
+          <select id="plot"> 
+            <option value="" selected>Short</option>
+            <option value="full">Full</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+            <button class="btn btn-danger btn-block" id="submitBtn">Search Movie</button>
+        </div>
+      </form>
+      <div id="result">
+
+      </div>
+    </div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src = "script.js"></script>
+
+</html>
