@@ -20,7 +20,7 @@ Tutorial followed from youtube @ GeekProbin https://www.youtube.com/watch?v=1Vjd
       <!-- logo -->
       <div class="logo">
         <div class="container">
-          <p>Movie<span>Fortress</span></p>
+          <p>Movie<span>Fortress<i class="fab fa-fort-awesome"></i></span></p>
         </div>
       </div>
       <!-- end of logo -->
@@ -28,9 +28,14 @@ Tutorial followed from youtube @ GeekProbin https://www.youtube.com/watch?v=1Vjd
       <div class="search-container">
         <div class="search-element">
           <h3> Search Movie: </h3>
+          <select id="plot-select" class="plot-select">
+            <option value="short" selected="">Short plot</option>
+            <option value="full">Full plot</option>
+          </select>
           <input type="text" class="form-control" 
           placeholder="Search Movie Title..." id="movie-search-box"
           onkeyup="findMovies()" onclick="findMovies()">
+          
           <div class="search-list" id="search-list">
             <div class="search-list-item">
               <div class="search-item-thumbnail">
@@ -41,7 +46,6 @@ Tutorial followed from youtube @ GeekProbin https://www.youtube.com/watch?v=1Vjd
                 <p>2006</p>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
@@ -58,15 +62,16 @@ Tutorial followed from youtube @ GeekProbin https://www.youtube.com/watch?v=1Vjd
               <ul class = "movie-misc-info">
                 <li class="year">Year: 2006</li>
                 <li class="rated">Rated 7.1/10</li>
-                <li class="released">Realeased: 06 June 2006</li>
+                <li class="released">Released: 06 June 2006</li>
               </ul>
               <p class="genre"><b>Genre: </b>Action, Drama, Sport</p>
               <p class="writer"><b>Writer: Sylvester Stallone</b></p>
-              <p class="actors"><b>Actors: Angelica pickles, lol</b></p>
+              <p class="actors"><b>Actors: Sylvester Stallone, Burt Young, Antonio Tarver</b></p>
               <p class="plot"><b>Plot: Thirty years after the ring of the first bell, 
                 Rocky Balboa comes out of retirement and dons his gloves for his final fight against the reigning heavyweight champ, 
                 Mason 'The Line' Dixon.</b></p>
               <p class="language"><b>Language: English</b></p>
+              <!-- fas fa-award is for the award symbol in font awesome -->
               <p class="awards"><b><i class="fas fa-award"></i></b> Nominated for 1 Oscar award</p>
             </div>
           </div>
