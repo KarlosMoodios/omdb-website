@@ -2,7 +2,7 @@
 
 This website was created by following a tutorial provided by GeekProbin on YouTube.com ( https://www.youtube.com/watch?v=1VjdxCTBfUI )
 
-I have made addition changes to the html, css and script files to try and make it my own a little bit.
+I have made additional changes to the html, css and script files to try and make it my own a little bit.
 
 The changes are:
 HTML
