@@ -61,7 +61,8 @@ The ones that are formatted correctly are:
  - Nest Hub
  - Nest Hub Max
  - Galaxy Fold
-The incorrect ones are:
+ 
+ The incorrect ones are:
  - iPad Air
  - iPad Mini
  - Surface Pro 7
