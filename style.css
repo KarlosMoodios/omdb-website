@@ -6,12 +6,12 @@
     --md-dark-colour:#555555;
     --dark-color: #2c2c2c;
     --md-blue-color: #0044aa;
-    --light-blue-color: #0088ff;
     --orange-color:#ff5511;
     --gold-color: #FFD700;
 }
 /* '*' aims at the entire document */
 *{
+    padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
@@ -86,17 +86,16 @@ different to .logo > p wherein would only target a p that is a direct descendant
 .search-element .form-control{
     padding: 1rem 2rem;
     font-size: 1.4rem;
-    border: solid 4px var(--orange-color);
+    border: solid 8px var(--orange-color);
     border-radius: 10px;
     outline: none;
     color: var(--dark-color);
     width: 550px;
 }
 .plot-select{
-    padding: 1rem;
-    font-size: 1.4rem;
+    padding: 30px;
+    font-size: 1.5rem;
     border-radius: 10px;
-    border: solid 4px var(--orange-color);
 }
 .search-list{
     position: absolute;
@@ -129,7 +128,7 @@ different to .logo > p wherein would only target a p that is a direct descendant
     transition: background-color 200ms ease;
 }
 .search-list .search-list-item:hover{
-    background-color: var(--light-blue-color);
+    background-color: #1f1f1f;
 }
 .search-list-item{
     display: flex;
@@ -156,10 +155,10 @@ different to .logo > p wherein would only target a p that is a direct descendant
     width: 10px;
 }
 .search-list::-webkit-scrollbar-track{
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3)
 }
 .search-list::-webkit-scrollbar-thumb{
-    background-color: #fff;
+    background-color: var(--orange-color);
     outline: none;
     border-radius: 10px;
 }
@@ -183,7 +182,6 @@ different to .logo > p wherein would only target a p that is a direct descendant
     text-align: center;
     color: #fff;
     padding-top: 3rem;
-    
 }
 /* movie info stylings */ 
 .movie-title {
@@ -286,6 +284,7 @@ different to .logo > p wherein would only target a p that is a direct descendant
         margin-bottom: 0;
         font-size: 2rem;
     }
+    
     .result-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
